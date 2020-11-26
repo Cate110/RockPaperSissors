@@ -35,14 +35,14 @@ function playRound (playerSelection, computerSelection){
     if (playerSelection === computerSelection){
         return log = 'Is a tie!';
 
-    }else if (playerSelection === 'rock' && computerSelection === 'sissors' ||
-              playerSelection === 'sissors' && computerSelection === 'paper' ||
+    }else if (playerSelection === 'rock' && computerSelection === 'scissors' ||
+              playerSelection === 'scissors' && computerSelection === 'paper' ||
               playerSelection === 'paper' && computerSelection === 'rock') {
                  return log = 'You Win!';
 
     }else if (playerSelection === 'rock' && computerSelection === 'paper' ||
-              playerSelection === 'sissors' && computerSelection === 'rock' ||
-              playerSelection === 'paper' && computerSelection === 'sissors') {
+              playerSelection === 'scissors' && computerSelection === 'rock' ||
+              playerSelection === 'paper' && computerSelection === 'scissors') {
                  return log = 'You Lose!';
 
     }else {

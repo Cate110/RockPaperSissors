@@ -2,4 +2,85 @@ body {
     background-image: url(/Img/Chalkboard-hd-wallpapers.jpg);
     background-size: auto;
     background-repeat: no-repeat;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icon-box {
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    width: 600px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.vs {
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    width: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.player-icon {
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 75px;
+    left: 70px;
+}
+
+.computer-icon {
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    left: 400px;
+    bottom: 90px;
+    position: relative;
+}
+
+.options-box {
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    width: 460px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.rock {
+    position: relative;
+    right: 140px;
+}
+
+.paper {
+    position: relative;
+}
+
+.scissors {
+    position: relative;
+    left: 140px;
+}
+
+.score-box {
+    text-align: center;
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
 }

@@ -84,3 +84,35 @@ h2 {
     margin: auto;
     margin-top: 40px;
 }
+
+.player-score {
+    text-align: center;
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    position: relative;
+    width: 40px;
+    top: 50px;
+    left: 74px;
+}
+
+.computer-score {
+    text-align: center;
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    position: relative;
+    width: 40px;
+    bottom: 51px;
+    left: 176px;
+}
+
+.separator {
+    text-align: center;
+    border-width: thick;
+    border-color: maroon;
+    border-style: solid;
+    width: 40px;
+    margin: auto;
+    text-align: center;
+}

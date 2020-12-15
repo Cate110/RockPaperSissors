@@ -1,10 +1,10 @@
 @font-face {
     font-family: PermanentMarker;
-    src: url(../PermanentMarker-Regular.ttf);
+    src: url(./PermanentMarker-Regular.ttf);
 }
 
 body {
-    background-image: url(../Img/Chalkboard-hd-wallpapers.jpg);
+    background-image: url(./Img/Chalkboard-hd-wallpapers.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
